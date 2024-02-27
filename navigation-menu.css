@@ -1,0 +1,71 @@
+.xoutline-icon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-a {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.about2,
+.button-text12,
+.our-work2,
+.services2 {
+  position: relative;
+}
+.button-text12 {
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.button13 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-9xl) var(--padding-xs)
+    var(--padding-13xl);
+  background-color: var(--color-chocolate-100);
+  border-radius: var(--br-5xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.about-services {
+  flex-direction: column;
+  align-items: center;
+  gap: 32px 0;
+}
+.about-services,
+.main-frame1,
+.navigation-menu {
+  display: flex;
+  justify-content: flex-start;
+}
+.main-frame1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.navigation-menu {
+  width: 414px;
+  position: relative;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-41xl) var(--padding-13xl) 359px 135px;
+  box-sizing: border-box;
+  gap: 185px 0;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
